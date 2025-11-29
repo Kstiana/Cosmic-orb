@@ -454,6 +454,12 @@ body {
     }
 }
 
+@media (min-width: 1024px) {
+.text {
+    bottom: 50px;
+}
+}
+
 @media (max-width: 300px) {
     .container {
         width: min(300px, 85vw, 85vh);
